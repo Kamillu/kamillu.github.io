@@ -1,2 +1,0 @@
-# kamillu.github.io
-store
