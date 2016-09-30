@@ -432,7 +432,7 @@ itemsString +="\n\nFORMA DE PAGO: " + formapago;
 var form = document.createElement("form"); 
 form.style.display = "none"; 
 form.method = "POST"; 
-form.action = "https://kamillu.github.io/email.html";
+form.action = "http://kamillu.github.io/email.php";
 form.acceptCharset = "utf-8"; 
 form.appendChild(this.createHiddenElement("jcitems", itemsString)); 
 form.appendChild(this.createHiddenElement("jcremite", remite)); 
