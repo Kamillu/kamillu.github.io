@@ -432,7 +432,7 @@ itemsString +="\n\nFORMA DE PAGO: " + formapago;
 var form = document.createElement("form"); 
 form.style.display = "none"; 
 form.method = "POST"; 
-form.action = "http://kamillu.github.io/email.php";
+form.action = "http://kamillu.ueuo.com/email.php";
 form.acceptCharset = "utf-8"; 
 form.appendChild(this.createHiddenElement("jcitems", itemsString)); 
 form.appendChild(this.createHiddenElement("jcremite", remite)); 
@@ -446,7 +446,7 @@ if (p == null || p=='');
 }
 else {
 var error = document.getElementById("error");
-var mensaje = "<b>Nombre, telefono e email son imprescindibles para poder contactar con usted.</b>";
+var mensaje = "<b>Nombre, télefono e email son imprescindibles para poder contactar con usted.</b>";
 error.innerHTML = mensaje;
 }
 
