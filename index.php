@@ -1,42 +1,28 @@
 <?php
-include("../include/functions.php");
-$TITLE = "Sample Test [PHP-QAT: Quality Assurance Team]";
-$SITE_UPDATE = date("D M d H:i:s Y T", filectime(__FILE__));
-/* $Id$ */
-common_header();
-?>
-
-<div style="padding: 10px">
-<h1>Sample Test: clean.inc</h1>
-<p>Back to &quot;<a href="../phpt_details.php">PHPT Test File Layout</a>&quot;</p>
-<pre>&lt;?php
-include_once(dirname(__FILE__) . &#039;/imap_include.inc&#039;);
-
-$imap_stream = imap_open($default_mailbox, $username, $password);
-
-// delete all msgs in default mailbox, i.e INBOX
-$check = imap_check($imap_stream);
-for ($i = 1; $i &lt;= $check-&gt;Nmsgs; $i++) {
-  imap_delete($imap_stream, $i); 
+/**
+ * This example shows sending a message using PHP's mail() function.
+ */
+require '../PHPMailerAutoload.php';
+//Create a new PHPMailer instance
+$mail = new PHPMailer;
+//Set who the message is to be sent from
+$mail->setFrom('from@example.com', 'First Last');
+//Set an alternative reply-to address
+$mail->addReplyTo('replyto@example.com', 'First Last');
+//Set who the message is to be sent to
+$mail->addAddress('whoto@example.com', 'John Doe');
+//Set the subject line
+$mail->Subject = 'PHPMailer mail() test';
+//Read an HTML message body from an external file, convert referenced images to embedded,
+//convert HTML into a basic plain-text alternative body
+$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
+//Replace the plain text body with one created manually
+$mail->AltBody = 'This is a plain-text message body';
+//Attach an image file
+$mail->addAttachment('images/phpmailer_mini.png');
+//send the message, check for errors
+if (!$mail->send()) {
+    echo "Mailer Error: " . $mail->ErrorInfo;
+} else {
+    echo "Message sent!";
 }
-
-$mailboxes = imap_getmailboxes($imap_stream, $server, &#039;*&#039;);
-
-foreach($mailboxes as $value) {
-  // Only delete mailboxes with our prefix
-  if (preg_match(&#039;/\{.*?\}INBOX\.(.+)/&#039;, $value-&gt;name, $match) == 1) {
-    if (strlen($match[1]) &gt;= strlen($mailbox_prefix) 
-    &amp;&amp; substr_compare($match[1], $mailbox_prefix, 0, strlen($mailbox_prefix)) == 0) {
-      imap_deletemailbox($imap_stream, $value-&gt;name);
-    }
-  } 
-}
-
-imap_close($imap_stream, CL_EXPUNGE); 
-?&gt;</pre>
-<p>Back to &quot;<a href="../phpt_details.php">PHPT Test File Layout</a>&quot;</p>
-</div>
-
-<?php
-common_footer();
-?>
