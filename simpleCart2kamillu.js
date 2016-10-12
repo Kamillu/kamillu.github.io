@@ -1009,7 +1009,6 @@ return;
 /********************************************************************************************************
  *			Cart Item Discount
  ********************************************************************************************************/
-(function(){   
 // create a cookie function
     function createCookie(name,value,days) {
         if (days) {
@@ -1050,7 +1049,7 @@ return;
     //This is called when promo code submit button is clicked
     jQuery("#promoSub").click(function Discount() {
         //Interact with PHP file and check for valid Promo Code
-        jQuery.post("http://kamillustore.16mb.com/discount.php", { code: jQuery('#code').val() } , function(data) {
+        jQuery.post("discount.php", { code: jQuery('#code').val() } , function(data) {
             console.log(jQuery('#code').val());
             if (data=="0" || data=='') { 
                 console.log("Wrong Code"); 
