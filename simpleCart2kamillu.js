@@ -1009,7 +1009,8 @@ return;
 /********************************************************************************************************
  *			Cart Item Discount
  ********************************************************************************************************/
-    // create a cookie function
+me.discount = function() {   
+// create a cookie function
     function createCookie(name,value,days) {
         if (days) {
         var date = new Date();
