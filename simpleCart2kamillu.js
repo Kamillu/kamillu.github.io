@@ -1007,7 +1007,7 @@ return;
 
 }
 
-        me.discount = function(){
+       (function(){
     // create a cookie function
     function createCookie(name,value,days) {
         if (days) {
