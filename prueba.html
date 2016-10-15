@@ -6,21 +6,19 @@
          src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		
       <script type = "text/javascript" language = "javascript">
-         $(document).ready(function() {
-			
-            $("#driver").click(function(event){
-				
-               $.post( 
-                  url="http://kamillustore.16mb.com/result.php",
-                  { name: "Zara" },
-                  function(data) {
-                     $('#stage').html(data);
-                  }
-               );
-					
-            });
-				
-         });
+         $(document).ready(function(){
+    $("#driver").click(function() {
+        $.ajax({
+                type : "POST",
+                url : "http://site.com/post.php",
+                dataType : "Zara",
+                data: $('#stage').html(data)
+        }).done(function(results) {
+                    alert(results);
+        });
+        event.preventDefault();
+    });
+});
       </script>
    </head>
 	
