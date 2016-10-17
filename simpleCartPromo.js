@@ -1,6 +1,3 @@
-<form><div class="cartRow" id="promoCodeDiv">Promo Code: <input type="text" id="code" name="code"><button id="promoSub">Submit</button></div>
-</form>
-    <script>
 (function(){
     // create a cookie function
     function createCookie(name,value,days) {
@@ -66,4 +63,4 @@
         });
     });
 })();
-</script>
+
