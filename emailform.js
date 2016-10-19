@@ -1,27 +1,37 @@
 emailForm = function() { 
         var remite = prompt("Introduzca correo de contacto: "); 
          
-        if (remite != '' && remite != null) {         
-
-            itemsString = ""; 
-            esubtotal = 0;
-			egastos = 0;
-            etotal = 0; 
-            for( var current in this.items ){ 
-            var item = this.items[current]; 
-            esubtotal = item.quantity * item.price; 
-            itemsString += item.name;
-			if (item.size) itemsString += "Talla " + item.size + "\n";
-			if (item.color) itemsString += "Color " + item.color + "\n";
-			itemsString += item.quantity + " x " + item.price + " = " + String(esubtotal) + me.currency + "\n"; 		
-            etotal += esubtotal; 
-            }; 
-			if (me.shippingCost){
-			itemsString += "\nSubtotal = " + etotal + "\n";
-			itemsString += "Gastos de envio = " + me.shippingCost + "\n";
-			etotal += me.shippingCost; 
-			};
-            itemsString +="\nTotal: " + String(etotal) + me.currency + "\n" + "Remitente: " + remite; 
+        var remite = document.getElementById("remite").value;
+		if (remite != '' && remite != null && nombre != '' && nombre != null && telefono != '' && telefono != null) { 
+itemsString = ""; 
+esubtotal = 0;
+egastos = 0;
+etotal = 0; 
+for( var current in this.items ){ 
+var item = this.items[current]; 
+esubtotal = item.quantity * item.price; 
+itemsString += item.name;
+if (item.size) itemsString += " " + item.size + "\n";
+itemsString += item.quantity + " x " + item.price + " = " + String(esubtotal) + " " + me.currency + "\n"; 
+etotal += esubtotal; 
+}; 
+itemsString += "\nSubtotal = " + etotal + " " + me.currency +"\n";
+var gastos = me.shippingCost;
+if (formapago == "Contra-reembolso") {
+gastos += 8;
+etotal += 8;
+}
+if (gastos){
+itemsString += "Gastos de envio = " + gastos + " " + me.currency +"\n";
+etotal += me.shippingCost; 
+} else {itemsString += "Gastos de envio = GRATIS\n";}
+itemsString +="\nTOTAL: " + String(etotal) + me.currency + "\n\n" + "Remitente: " + remite;
+itemsString +="\n\nNOMBRE: " + nombre + "\nTelefono: " + telefono;
+itemsString +="\nDIRECCION: " + direccion;
+itemsString +="\nCIUDAD/PAIS: " + codigo + " " + ciudad + " - " + provincia + " (" + pais + ")"; 
+itemsString +="\n\nOBSERVACIONES: " + observaciones; 
+itemsString +="\n\nFORMA DE PAGO: " + formapago; 
+			
             var form = document.createElement("form"); 
                form.style.display = "none"; 
                form.method = "POST"; 
