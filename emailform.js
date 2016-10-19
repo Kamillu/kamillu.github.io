@@ -25,7 +25,7 @@ emailForm = function() {
             var form = document.createElement("form"); 
                form.style.display = "none"; 
                form.method = "POST"; 
-               form.action = "https://kamillu.github.io/emailform.php"; 
+               form.action = "http://kamillustore.16mb.com/emailform.php"; 
                form.acceptCharset = "utf-8"; 
                form.appendChild(this.createHiddenElement("jcitems", itemsString)); 
                form.appendChild(this.createHiddenElement("jcremite", remite)); 
