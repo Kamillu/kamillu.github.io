@@ -1,7 +1,7 @@
 emailForm = function() { 
         var remite = prompt("Introduzca correo de contacto: "); 
-         
-        var remite = document.getElementById("remite").value;
+         document.getElementById("remite").value;
+	
 		if (remite != '' && remite != null && nombre != '' && nombre != null && telefono != '' && telefono != null) { 
 itemsString = ""; 
 esubtotal = 0;
