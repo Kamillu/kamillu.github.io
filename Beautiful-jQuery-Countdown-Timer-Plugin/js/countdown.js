@@ -41,7 +41,7 @@
 			if (days == 1) { thisEl.find(".timeRefDays").text("día"); } else { thisEl.find(".timeRefDays").text("días"); }
 			if (hours == 1) { thisEl.find(".timeRefHours").text("hora"); } else { thisEl.find(".timeRefHours").text("horas"); }
 			if (minutes == 1) { thisEl.find(".timeRefMinutes").text("minuto"); } else { thisEl.find(".timeRefMinutes").text("minutos"); }
-			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("segundo"); } else { thisEl.find(".timeRefSeconds").text("segundo"); }
+			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("segundo"); } else { thisEl.find(".timeRefSeconds").text("segundos"); }
 			
 			//logic for the two_digits ON setting
 			if(settings['format'] == "on") {
