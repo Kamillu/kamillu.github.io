@@ -23,7 +23,7 @@
 ul#countdown li {
   display: inline-block;
   background: transparent url('../images/timer-piece.png') no-repeat left top;
-  width: 50px;
+  width: auto;
   margin-bottom: 4em;
   text-align: center;
 }
@@ -50,5 +50,5 @@ ul#countdown li p.timeRefSeconds {
   margin-top: 1em;
   color: black;
   text-transform: uppercase;
-  font-size: .875em;
+  font-size: 3em;
 }
