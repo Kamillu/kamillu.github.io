@@ -34,7 +34,7 @@ h2 {
 }
 /* ---------- LAYOUT ---------- */
 .container {
-  width: 50%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 
@@ -158,7 +158,7 @@ ul#countdown li p.timeRefHours,
 ul#countdown li p.timeRefMinutes,
 ul#countdown li p.timeRefSeconds {
   margin-top: 1em;
-  color: #000;
+  color: black;
   text-transform: uppercase;
   font-size: .875em;
 }
