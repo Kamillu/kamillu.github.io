@@ -1,5 +1,4 @@
 /**********************************************************************************
-
 	Project Name: 
 	Project Description: 
 	File Name:
@@ -8,11 +7,22 @@
 	Version: 1.0.0
 	
 **********************************************************************************/
-/* ---------- TIMER ---------- */
+
+.timer-area {
+  width: 50%;
+  background: #8bbd13;
+  text-align: center;
+  padding-top: 2em;
+  margin-bottom: 4em;
+}
+.timer-area h1 {
+  color: black;
+}
+
 ul#countdown li {
   display: inline-block;
   background: transparent url('../images/timer-piece.png') no-repeat left top;
-  width: 0.9em;
+  width: 1em;
   margin-bottom: 4em;
   text-align: center;
 }
