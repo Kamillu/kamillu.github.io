@@ -9,7 +9,7 @@
 **********************************************************************************/
 
 .timer-area {
-  width: 100%;
+  width: 60%;
   background: #8bbd13;
   text-align: center;
   padding-top: 1em;
@@ -23,7 +23,7 @@
 ul#countdown li {
   display: inline-block;
   background: transparent url('../images/timer-piece.png') no-repeat left top;
-  width: 60px;
+  width: 100px;
   margin-bottom: 4em;
   text-align: center;
 }
