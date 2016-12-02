@@ -47,10 +47,10 @@ ul#countdown li p.timeRefDays,
 ul#countdown li p.timeRefHours,
 ul#countdown li p.timeRefMinutes,
 ul#countdown li p.timeRefSeconds {
-  font-size: 3em;
+  font-size: 0.9em;
   font-weight: bold;
   color: red;
-  margin-top: 0.9em;
+  margin-top: 2em;
   text-transform: uppercase;
   
 }
