@@ -24,7 +24,7 @@ ul#countdown li {
   display: inline-block;
   background: transparent url('../images/timer-piece.png') no-repeat left top;
   width: 100px;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   text-align: center;
 }
 ul#countdown li span {
