@@ -49,8 +49,8 @@ ul#countdown li p.timeRefMinutes,
 ul#countdown li p.timeRefSeconds {
   font-size: 0.9em;
   font-weight: bold;
-  color: red;
-  margin-top: 2em;
+  color: black;
+  margin-top: 1em;
   text-transform: uppercase;
   
 }
