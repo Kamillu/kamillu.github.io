@@ -9,7 +9,7 @@
 **********************************************************************************/
 
 .timer-area {
-  width: 70%;
+  width: 95%;
   background: #8bbd13;
   text-align: center;
   padding-top: 0.5em;
@@ -18,22 +18,24 @@
 }
 .timer-area h1 {
   color: black;
-  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1em;
 }
 
 ul#countdown li {
   display: inline-block;
-  background: transparent url('../images/timer-piece.png') no-repeat left top;
-  width: 100px;
+  background: transparent url('//kamillu.github.io/Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-piece2.png') no-repeat center top;
+  width: 75px;
   margin-bottom: 0.5em;
   text-align: center;
 }
 ul#countdown li span {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
   color: red ;
-  height: 108px;
-  line-height: 108px;
+  height: 75px;
+  line-height: 1.5em;
   position: relative;
 }
 ul#countdown li span::before {
@@ -42,16 +44,16 @@ ul#countdown li span::before {
   height: 1px;
   border-top: 1px solid white;
   position: absolute;
-  top: 31px;
+  top: 21px;
 }
 ul#countdown li p.timeRefDays,
 ul#countdown li p.timeRefHours,
 ul#countdown li p.timeRefMinutes,
 ul#countdown li p.timeRefSeconds {
-  font-size: 0.9em;
+  font-size: 0.7em;
   font-weight: bold;
   color: black;
-  margin-top: 1em;
+  margin-top: 0.5em;
   text-transform: uppercase;
   
 }
