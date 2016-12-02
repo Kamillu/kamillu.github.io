@@ -43,6 +43,7 @@ h2 {
   margin: 2em 0;
 }
 .timer-area {
+  width: 50%;
   background: #8bbd13;
   text-align: center;
   padding-top: 2em;
