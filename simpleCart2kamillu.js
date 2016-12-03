@@ -446,7 +446,7 @@ if (p == null || p=='');
 }
 else {
 var error = document.getElementById("error");
-var mensaje = "<b>Nombre, télefono e email son imprescindibles para poder contactar con usted.</b>";
+var mensaje = "<b>Nombre, télefono e email son imprescindibles para este medio de pago.</b>";
 error.innerHTML = mensaje;
 }
 
