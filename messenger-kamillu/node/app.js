@@ -43,13 +43,13 @@ const VALIDATION_TOKEN = (process.env.MESSENGER_VALIDATION_TOKEN) ?
 // Generate a page access token for your page from the App Dashboard
 const PAGE_ACCESS_TOKEN = (process.env.MESSENGER_PAGE_ACCESS_TOKEN) ?
   (process.env.MESSENGER_PAGE_ACCESS_TOKEN) :
-  config.get('EAADJJgPnQzwBABZAEWtq1k1oOZAVEhYT4a9szASdXKD14MecXfk1kMdss57uJ1Bng7kuilt66EW1yXQH4pcJMgieMZACgnnPQz426sbXByWNm9TUV9XCAswXYZCbheZASs1LMPv3wlekQUlAsqyyo7Vf9ltWRbtZC8VblO8YZBZBkQZDZD');
+  config.get('EAADJJgPnQzwBAEDRORZBcTWC4LZAxZA673CWjHZAFsNjcA2sMdE5bTY7ZBS9nqDFOZAO05ZCjnVpwcC2f0Xyoxlux9FF8IMXSjwzt9ylaMr8lQ87pPCFSrZBGVg6GD5jnJj8b6WvTV5IUnHB8JuHdhK1PyHOr0x0FS3AiIyLYqEm8QZDZD');
 
 // URL where the app is running (include protocol). Used to point to scripts and 
 // assets located at this address. 
 const SERVER_URL = (process.env.SERVER_URL) ?
   (process.env.SERVER_URL) :
-  config.get('https://kamillu.github.io/messenger-kamillu/node/app.js');
+  config.get('https://kamillu.github.io/messenger-kamillu/node/');
 
 if (!(APP_SECRET && VALIDATION_TOKEN && PAGE_ACCESS_TOKEN && SERVER_URL)) {
   console.error("Missing config values");
