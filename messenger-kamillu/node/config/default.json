@@ -1,6 +1,6 @@
 {
-    "appSecret": "",
-    "pageAccessToken": "",
-    "validationToken": "",
-    "serverURL": ""
+    "appSecret": "7ec2c1bffeb3a02d261e5d8681770ae5",
+    "pageAccessToken": "EAADJJgPnQzwBAEDRORZBcTWC4LZAxZA673CWjHZAFsNjcA2sMdE5bTY7ZBS9nqDFOZAO05ZCjnVpwcC2f0Xyoxlux9FF8IMXSjwzt9ylaMr8lQ87pPCFSrZBGVg6GD5jnJj8b6WvTV5IUnHB8JuHdhK1PyHOr0x0FS3AiIyLYqEm8QZDZD",
+    "validationToken": "jota",
+    "serverURL": "https://kamillustore.herokuapp.com/messenger-kamillu/node/app.js"
 }
