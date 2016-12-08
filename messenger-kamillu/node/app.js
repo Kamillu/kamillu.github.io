@@ -33,23 +33,23 @@ app.use(express.static('public'));
 // App Secret can be retrieved from the App Dashboard
 const APP_SECRET = (process.env.MESSENGER_APP_SECRET) ? 
   process.env.MESSENGER_APP_SECRET :
-  config.get('7ec2c1bffeb3a02d261e5d8681770ae5');
+  config.get('appSecret');
 
 // Arbitrary value used to validate a webhook
 const VALIDATION_TOKEN = (process.env.MESSENGER_VALIDATION_TOKEN) ?
   (process.env.MESSENGER_VALIDATION_TOKEN) :
-  config.get('jota');
+  config.get('validationToken');
 
 // Generate a page access token for your page from the App Dashboard
 const PAGE_ACCESS_TOKEN = (process.env.MESSENGER_PAGE_ACCESS_TOKEN) ?
   (process.env.MESSENGER_PAGE_ACCESS_TOKEN) :
-  config.get('EAADJJgPnQzwBAEDRORZBcTWC4LZAxZA673CWjHZAFsNjcA2sMdE5bTY7ZBS9nqDFOZAO05ZCjnVpwcC2f0Xyoxlux9FF8IMXSjwzt9ylaMr8lQ87pPCFSrZBGVg6GD5jnJj8b6WvTV5IUnHB8JuHdhK1PyHOr0x0FS3AiIyLYqEm8QZDZD');
+  config.get('pageAccessToken');
 
 // URL where the app is running (include protocol). Used to point to scripts and 
 // assets located at this address. 
 const SERVER_URL = (process.env.SERVER_URL) ?
   (process.env.SERVER_URL) :
-  config.get('https://kamillu.github.io/messenger-kamillu/node/');
+  config.get('serverURL');
 
 if (!(APP_SECRET && VALIDATION_TOKEN && PAGE_ACCESS_TOKEN && SERVER_URL)) {
   console.error("Missing config values");
