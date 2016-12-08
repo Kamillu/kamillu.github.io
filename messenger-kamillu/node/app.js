@@ -33,17 +33,17 @@ app.use(express.static('public'));
 // App Secret can be retrieved from the App Dashboard
 const APP_SECRET = (process.env.MESSENGER_APP_SECRET) ? 
   process.env.MESSENGER_APP_SECRET :
-  config.get('appSecret');
+  config.get('7ec2c1bffeb3a02d261e5d8681770ae5');
 
 // Arbitrary value used to validate a webhook
 const VALIDATION_TOKEN = (process.env.MESSENGER_VALIDATION_TOKEN) ?
   (process.env.MESSENGER_VALIDATION_TOKEN) :
-  config.get('validationToken');
+  config.get('jota');
 
 // Generate a page access token for your page from the App Dashboard
 const PAGE_ACCESS_TOKEN = (process.env.MESSENGER_PAGE_ACCESS_TOKEN) ?
   (process.env.MESSENGER_PAGE_ACCESS_TOKEN) :
-  config.get('pageAccessToken');
+  config.get('EAADJJgPnQzwBABZAEWtq1k1oOZAVEhYT4a9szASdXKD14MecXfk1kMdss57uJ1Bng7kuilt66EW1yXQH4pcJMgieMZACgnnPQz426sbXByWNm9TUV9XCAswXYZCbheZASs1LMPv3wlekQUlAsqyyo7Vf9ltWRbtZC8VblO8YZBZBkQZDZD');
 
 // URL where the app is running (include protocol). Used to point to scripts and 
 // assets located at this address. 
