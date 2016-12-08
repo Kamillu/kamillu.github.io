@@ -2,5 +2,5 @@
     "appSecret": "7ec2c1bffeb3a02d261e5d8681770ae5",
     "pageAccessToken": "EAADJJgPnQzwBACGeNPEZBZA09iWaDGFTdLSxeVQsX0H0SUkw5jbfcq3IpFmeBGZB3482rDx1WaG3RqfOi07taYZBvlznPyrztu1OO9nZAa9GNsa4NGdEhcvx9cuS3jG3dyOCWOSe5BKSKzD3J4MGQ353hEiO5ZAk3MEiguZATpX4QZDZD",
     "validationToken": "VALIDATION_TOKEN",
-    "serverURL": "https://kamillu.github.io/messenger-kamillu/node/public/index.html"
+    "serverURL": "https://kamillu.github.io/messenger-kamillu/node/app.js"
 }
