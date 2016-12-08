@@ -1,6 +1,6 @@
-app.get('/webhook', function(req, res) {
+app.get('/messenger-kamillu/webhook', function(req, res) {
   if (req.query['hub.mode'] === 'subscribe' &&
-      req.query['hub.verify_token'] === jotasaez) {
+      req.query['hub.verify_token'] === 'jotasaez') {
     console.log("Validating webhook");
     res.status(200).send(req.query['hub.challenge']);
   } else {
