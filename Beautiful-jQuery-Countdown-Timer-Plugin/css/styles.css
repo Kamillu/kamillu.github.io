@@ -12,7 +12,9 @@
   width: 95%;
   background: #8bbd13;
   text-align: center;
-	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
   padding-top: 0.5em;
   margin-bottom: 0.5em;
   border: 1px solid black ;
@@ -51,6 +53,9 @@ ul#countdown li p.timeRefDays,
 ul#countdown li p.timeRefHours,
 ul#countdown li p.timeRefMinutes,
 ul#countdown li p.timeRefSeconds {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: black;
   margin-top: 0.5em;
   text-transform: uppercase;
   
