@@ -31,7 +31,7 @@ ul#countdown li {
   text-align: center;
 }
 ul#countdown li span {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   color: red ;
   height: 80px;
