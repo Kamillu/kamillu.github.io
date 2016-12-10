@@ -26,7 +26,7 @@
 ul#countdown li {
   display: inline-block;
   background: transparent url('//kamillu.github.io/Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-piece2.png') no-repeat center top;
-  width: 75px;
+  width: 80px;
   margin-bottom: 0.5em;
   text-align: center;
 }
@@ -34,7 +34,7 @@ ul#countdown li span {
   font-size: 2.5em;
   font-weight: bold;
   color: red ;
-  height: 75px;
+  height: 80px;
   line-height: 1.5em;
   position: relative;
 }
