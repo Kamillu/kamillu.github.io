@@ -53,7 +53,7 @@ ul#countdown li p.timeRefSeconds {
   font-size: 0.7em;
 	font: inherit;
   font-weight: bold;
-  color: black;
+  color: #000;
   margin-top: 0.5em;
   text-transform: uppercase;
   
