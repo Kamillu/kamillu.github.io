@@ -51,6 +51,7 @@ ul#countdown li p.timeRefHours,
 ul#countdown li p.timeRefMinutes,
 ul#countdown li p.timeRefSeconds {
   font-size: 0.7em;
+	font: inherit;
   font-weight: bold;
   color: black;
   margin-top: 0.5em;
