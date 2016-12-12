@@ -25,11 +25,11 @@ h2 {
 }
 h1 {
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 0.5em;
 }
 h2 {
   font-size: 1.2em;
-  line-height: 1.5em;
+  line-height: 0.5em;
 }
 /* ---------- LAYOUT ---------- */
 .container {
@@ -43,8 +43,8 @@ h2 {
 .timer-area {
   background: transparent url('../Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-area-pattern.png') left top;
   text-align: center;
-  padding-top: 0,5em;
-  margin-bottom: 0,5em;
+  padding-top: 0em;
+  margin-bottom: 0em;
 }
 .timer-area h1 {
   color: white;
