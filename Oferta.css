@@ -41,9 +41,16 @@ h2 {
   text-align: left;
   padding-top: 0em;
   margin-bottom: 0em;
+	 width: auto;
 }
 .timer-area h1 {
   color: white;
+}
+.iframe {
+  width: auto;
+  text-align: right;
+  margin: 0 auto;
+  position: relative;
 }
 /* ---------- SIGNUP ---------- */
 .form-wrapper {
