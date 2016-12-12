@@ -163,7 +163,7 @@ ul#countdown li p.timeRefSeconds {
 .overlay {
     height: 0%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
