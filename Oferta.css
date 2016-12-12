@@ -43,8 +43,8 @@ h2 {
 .timer-area {
   background: transparent url('../Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-area-pattern.png') left top;
   text-align: center;
-  padding-top: 2em;
-  margin-bottom: 4em;
+  padding-top: 1em;
+  margin-bottom: 1em;
 }
 .timer-area h1 {
   color: white;
