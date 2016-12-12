@@ -37,6 +37,9 @@ h2 {
   text-align: center;
   margin: 0 auto;
 }
+#logo img {
+  margin: 2em 0;
+}
 .timer-area {
   background: transparent url('../Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-area-pattern.png') left top;
   text-align: center;
@@ -146,7 +149,7 @@ ul#countdown li span::before {
   height: 1px;
   border-top: 1px solid white;
   position: absolute;
-  top: 31px;
+  top: 0px;
 }
 ul#countdown li p.timeRefDays,
 ul#countdown li p.timeRefHours,
