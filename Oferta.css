@@ -21,7 +21,7 @@ p a:hover {
 h1,
 h2 {
   font-family: Georgia, serif;
-  margin-bottom: 1em;
+  margin-bottom: 0,5em;
 }
 h1 {
   font-size: 2em;
@@ -155,7 +155,7 @@ ul#countdown li p.timeRefDays,
 ul#countdown li p.timeRefHours,
 ul#countdown li p.timeRefMinutes,
 ul#countdown li p.timeRefSeconds {
-  margin-top: 1em;
+  margin-top: 0.5em;
   color: #909091;
   text-transform: uppercase;
   font-size: .875em;
