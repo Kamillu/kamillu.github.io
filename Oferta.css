@@ -30,7 +30,6 @@ h2 {
 /* ---------- LAYOUT ---------- */
 .container {
   width: 100%;
-  text-align: right;
   margin: 0 auto;
 }
 #logo img {
@@ -38,7 +37,7 @@ h2 {
 }
 .timer-area {
   background: transparent url('../Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-area-pattern.png') left top;
-  text-align: left;
+  text-align: center;
   padding-top: 0em;
   margin-bottom: 0em;
  width: auto;
@@ -51,6 +50,8 @@ h2 {
   text-align: right;
   margin: 0 auto;
   position: absolute;
+  top: 20px;
+  right: 45px;
 }
 /* ---------- SIGNUP ---------- */
 .form-wrapper {
