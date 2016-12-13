@@ -51,6 +51,9 @@ h1 {
   margin: 0 auto;
   top: 20px;
  }
+.iframe #menu-wrapper .menu-cart {
+	display: none;
+	}
 /* ---------- SIGNUP ---------- */
 .form-wrapper {
   border: 1px solid #dcdee0;
