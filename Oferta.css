@@ -23,6 +23,10 @@ h1 {
   font-size: 1em;
   line-height: 1em;
 }
+h2 {
+  font-size: 0.5em;
+  line-height: 0.5em;
+}
 /* ---------- LAYOUT ---------- */
 .container {
   width: 100%;
@@ -39,9 +43,6 @@ h1 {
  width: auto;
 }
 .timer-area h1 {
-  color: red;
-}
-.timer-area h2 {
   color: white;
 }
 .iframe {
@@ -132,17 +133,17 @@ footer#main-footer p {
 /* ---------- TIMER ---------- */
 ul#countdown li {
   display: inline-block;
-  background: transparent url('//kamillu.github.io/Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-piece2.png') no-repeat center top;
-  width: 80px;
-  margin-bottom: 0.5em;
+  background: transparent url('../Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-piece.png') no-repeat left top;
+  width: 104px;
+  margin-bottom: 0,5em;
   text-align: center;
 }
 ul#countdown li span {
-  font-size: 2.4em;
+  font-size: 3em;
   font-weight: bold;
   color: #1f2225;
-  height: 80px;
-  line-height: 1.5em;
+  height: 108px;
+  line-height: 108px;
   position: relative;
 }
 ul#countdown li span::before {
@@ -151,7 +152,7 @@ ul#countdown li span::before {
   height: 1px;
   border-top: 1px solid white;
   position: absolute;
-  top: 21px;
+  top: 0px;
 }
 ul#countdown li p.timeRefDays,
 ul#countdown li p.timeRefHours,
