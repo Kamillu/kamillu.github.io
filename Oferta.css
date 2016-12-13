@@ -193,12 +193,11 @@ ul#countdown li p.timeRefSeconds {
     right: 45px;
     font-size: 60px;
 }
-.overlay .checkoutbtn {
+.overlay .simpleCart_email {
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
-}
+    }
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
   .overlay a {font-size: 20px}
