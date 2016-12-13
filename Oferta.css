@@ -138,6 +138,11 @@ ul#countdown li {
   margin-bottom: 0.5em;
   text-align: center;
 }
+ul#countdown2 li {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
 ul#countdown li span {
   font-size: 2.4em;
   font-weight: bold;
