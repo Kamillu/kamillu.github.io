@@ -133,17 +133,17 @@ footer#main-footer p {
 /* ---------- TIMER ---------- */
 ul#countdown li {
   display: inline-block;
-  background: transparent url('../Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-piece.png') no-repeat left top;
-  width: 104px;
-  margin-bottom: 0,5em;
+  background: transparent url('//kamillu.github.io/Beautiful-jQuery-Countdown-Timer-Plugin/images/timer-piece2.png') no-repeat center top;
+  width: 80px;
+  margin-bottom: 0.5em;
   text-align: center;
 }
 ul#countdown li span {
   font-size: 3em;
   font-weight: bold;
   color: #1f2225;
-  height: 108px;
-  line-height: 108px;
+  height: 80px;
+  line-height: 1.5em;
   position: relative;
 }
 ul#countdown li span::before {
