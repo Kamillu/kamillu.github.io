@@ -51,7 +51,7 @@ h1 {
   margin: 0 auto;
   top: 20px;
  }
-.iframe #menu-wrapper .menu-cart {
+#menu-wrapper .menu-cart {
 	display: none;
 	}
 /* ---------- SIGNUP ---------- */
