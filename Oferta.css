@@ -24,8 +24,7 @@ h1 {
   line-height: 1em;
 }
 h2 {
-  font-size: 0.5em;
-  line-height: 0.5em;
+  color: white;
 }
 /* ---------- LAYOUT ---------- */
 .container {
