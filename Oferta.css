@@ -152,7 +152,7 @@ ul#countdown li span::before {
   height: 1px;
   border-top: 1px solid white;
   position: absolute;
-  top: 0px;
+  top: 21px;
 }
 ul#countdown li p.timeRefDays,
 ul#countdown li p.timeRefHours,
