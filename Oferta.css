@@ -194,9 +194,7 @@ ul#countdown li p.timeRefSeconds {
     font-size: 60px;
 }
 .overlay .item_add {
-    position: absolute;
-    bottom: 80px;
-    text-align: center;
+    text-align: right;
     }
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
