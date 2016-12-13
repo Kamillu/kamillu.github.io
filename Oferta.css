@@ -20,12 +20,12 @@ h2 {
   margin-bottom: 0,5em;
 }
 h1 {
-  font-size: 0.9em;
+  font-size: 0.7em;
   line-height: 1em;
 }
 h3 {
   font-size: 0.7em;
-  line-height: 1em;
+  line-height: 0.5em;
 }
 /* ---------- LAYOUT ---------- */
 .container {
@@ -47,6 +47,9 @@ h3 {
 }
 .timer-area h2 {
   color: white;
+}
+.timer-area h3 {
+  color: green;
 }
 .iframe {
   width: 100%;
