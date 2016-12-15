@@ -44,7 +44,7 @@ body {
     font-size: 60px;
 }
 /* Shopping Cart Box */
-.overlay #menu-wrapper .menu-cart {
+.overlay .menu-cart {
 position:relative;
 top:-5px;
 border-radius:4px;
