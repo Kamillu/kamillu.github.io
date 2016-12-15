@@ -303,14 +303,15 @@ function Cart(){
 			var option_count = 0;
 
 			me.each( item , function( value, x , field ){
-				if( field !== "id" && field !== "price" && field !== "quantity" && field !== "name" && field !== "shipping" && option_count < 10) {
-					form.appendChild( me.createHiddenElement( "item_color" 	+ counter, 	field ) );
-					form.appendChild( me.createHiddenElement( "item_color"	+ counter, 	value ) );
+				if( field !== "Description" && field !== "code" && field !== "promo" && field !== "image" && field !== "id" && field !== "price" && field !== "quantity" && field !== "name" && field !== "shipping" && option_count < 10) {
+					form.appendChild( me.createHiddenElement( "on" + option_count + "_"	+ counter, 	field ) );
+					form.appendChild( me.createHiddenElement( "os" + option_count + "_"	+ counter, 	value ) );
 					option_count++;
 				}
 			});
 
 			form.appendChild( me.createHiddenElement( "option_index_" + counter, option_count) );
+
 
 		});
 
