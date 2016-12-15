@@ -37,7 +37,7 @@ body {
     color: #f1f1f1;
 }
 
-.closebtn {
+.overlay .menu-wrapper .closebtn {
     position: absolute;
     top: 5px;
     right: 5px;
