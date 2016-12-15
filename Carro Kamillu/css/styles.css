@@ -39,9 +39,9 @@ body {
 
 .overlay .closebtn {
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 5px;
-    font-size: 60px;
+    font-size: 10px;
 }
 /* Shopping Cart Box */
 .overlay .menu-wrapper .menu-cart {
