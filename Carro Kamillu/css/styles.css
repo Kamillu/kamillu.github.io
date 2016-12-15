@@ -84,7 +84,7 @@ width:250px;
 color:red;
 }
 .overlay .menu-cart .bag {
-display:none;
+display:block;
 position:absolute;
 top:85px;
 z-index:1;
