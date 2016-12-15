@@ -41,7 +41,7 @@ body {
     position: absolute;
     top: 5px;
     right: 5px;
-    font-size: 20px;
+    font-size: 40px;
 }
 /* Shopping Cart Box */
 .overlay .menu-wrapper .menu-cart {
@@ -51,7 +51,7 @@ border-radius:4px;
 width:350px;
 float:center;
 margin-right:10px;
-height:80px;
+height:85px;
 display:block;
 line-height:16px;
 font-weight:700;
