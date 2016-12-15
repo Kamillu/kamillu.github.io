@@ -69,7 +69,7 @@ font-weight:700;
 font-family:'Open Sans', Tahoma, sans-serif;
 color:#111;
 margin:0;
-width:250px;
+width:100%;
 }
 .overlay a.mycart2 {
 font-size:16px;
@@ -78,7 +78,7 @@ font-weight:400;
 font-family:'Open Sans', Tahoma, sans-serif;
 color:#111;
 margin:0;
-width:250px;
+width:100%;
 }
 .overlay .menu-cart span {
 color:red;
