@@ -51,7 +51,7 @@ border-radius:4px;
 width:350px;
 float:center;
 margin-right:10px;
-height:90px;
+height:95px;
 display:block;
 line-height:1em;
 font-weight:700;
@@ -86,7 +86,7 @@ color:red;
 .overlay .menu-cart .bag {
 display:block;
 position:absolute;
-top:85px;
+top:95px;
 z-index:1;
 right:-1px;
 background:#ffcc00;
