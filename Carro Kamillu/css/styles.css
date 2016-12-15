@@ -48,7 +48,7 @@ body {
 position:relative;
 top:-5px;
 border-radius:4px;
-width:100%;
+width:90%;
 float:center;
     text-align: center;
 margin-right:10px;
@@ -107,7 +107,7 @@ display:none;
 .overlay .bag .itemContainer {
 border-radius:4px;
 float:left;
-width:40%;
+width:60px;
 height:auto;
 background:#fff;
 text-align:center;
