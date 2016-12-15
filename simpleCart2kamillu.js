@@ -300,6 +300,17 @@ function Cart(){
 			form.appendChild( me.createHiddenElement( "item_number_"	+ counter, counter			) );
 			form.appendChild( me.createHiddenElement( "item_color"		+ counter, item.color		) );
 			
+			var option_count = 0;
+
+			me.each( item , function( value, x , field ){
+				if( field !== "id" && field !== "price" && field !== "quantity" && field !== "name" && field !== "shipping" && option_count < 10) {
+					form.appendChild( me.createHiddenElement( "on" + option_count + "_"	+ counter, 	field ) );
+					form.appendChild( me.createHiddenElement( "os" + option_count + "_"	+ counter, 	value ) );
+					option_count++;
+				}
+			});
+
+			form.appendChild( me.createHiddenElement( "option_index_" + counter, option_count) );
 
 		});
 
