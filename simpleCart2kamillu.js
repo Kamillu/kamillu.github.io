@@ -304,8 +304,8 @@ function Cart(){
 
 			me.each( item , function( value, x , field ){
 				if( field !== "id" && field !== "price" && field !== "quantity" && field !== "name" && field !== "shipping" && option_count < 10) {
-					form.appendChild( me.createHiddenElement( "on" + option_count + "_"	+ counter, 	field ) );
-					form.appendChild( me.createHiddenElement( "os" + option_count + "_"	+ counter, 	value ) );
+					form.appendChild( me.createHiddenElement( "item_color" 	+ counter, 	field ) );
+					form.appendChild( me.createHiddenElement( "item_color"	+ counter, 	value ) );
 					option_count++;
 				}
 			});
