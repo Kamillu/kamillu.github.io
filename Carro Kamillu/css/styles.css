@@ -107,7 +107,7 @@ display:none;
 }
 .overlay .bag .itemContainer {
 border-radius:4px;
-float:left;
+float:center;
 width:100px;
 height:auto;
 background:#fff;
