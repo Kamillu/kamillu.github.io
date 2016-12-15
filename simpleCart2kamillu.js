@@ -298,7 +298,7 @@ function Cart(){
 			form.appendChild( me.createHiddenElement( "quantity_"		+ counter, item.quantity	) );
 			form.appendChild( me.createHiddenElement( "amount_"			+ counter, item.price		) );
 			form.appendChild( me.createHiddenElement( "item_number_"	+ counter, counter			) );
-			
+			form.appendChild( me.createHiddenElement( "item_color"		+ counter, item.color		) );
 			
 
 		});
