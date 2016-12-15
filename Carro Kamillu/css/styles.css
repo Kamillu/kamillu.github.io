@@ -64,7 +64,7 @@ padding:12px 12px 12px 45px;
 }
 .overlay .menu-cart a.mycart {
 font-size:18px;
-display:block;
+display:none;
 font-weight:700;
 font-family:'Open Sans', Tahoma, sans-serif;
 color:#111;
