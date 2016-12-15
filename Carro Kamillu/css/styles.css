@@ -19,9 +19,9 @@ body {
 .overlay-content {
     position: relative;
     top: 25%;
-    width: 100%;
+    width: auto;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1em;
 }
 
 .overlay a {
