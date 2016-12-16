@@ -85,7 +85,7 @@ width:100%;
 color:red;
 }
 .overlay .menu-cart .bag {
-display:none;
+display:block;
 position:absolute;
     text-align:center;
 top:95px;
