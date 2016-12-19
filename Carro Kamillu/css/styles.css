@@ -107,7 +107,7 @@ line-height:1em;
 font-weight:700;
 font-family:'Open Sans', Tahoma, sans-serif;
 font-size:16px;
-background:#ffcc00 url(https://lh3.googleusercontent.com/-dUX23H-zKxs/ToTuES-9aaI/AAAAAAAAAB0/28AzfxgjNlI/h80/basket.png) no-repeat 8px center;
+background:#ffcc00 url(https://lh3.googleusercontent.com/-dUX23H-zKxs/ToTuES-9aaI/AAAAAAAAAB0/28AzfxgjNlI/h80/basket.png) no-repeat 8px left;
 border:1px solid #ff9900;;
 color:#111;
 padding:12px 12px 12px 50px;
@@ -227,7 +227,7 @@ margin:3px 0 0;
 font:bold 30px Arial,sans-serif;
 }
 .overlay .bag a.simpleCart_empty,.bag a.simpleCart_checkout, .bag a.simpleCart_email {
-background:url(http://2.bp.blogspot.com/-S4AKqSDPUEs/ToSYCWJy4qI/AAAAAAAAABI/conBgqSajOY/s1600/fade.png) repeat-x top left;
+background:url(http://2.bp.blogspot.com/-S4AKqSDPUEs/ToSYCWJy4qI/AAAAAAAAABI/conBgqSajOY/s1600/fade.png) repeat-x top center;
 color:#fff;
 font-size:14px;
 text-transform:uppercase;
