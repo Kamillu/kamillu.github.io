@@ -156,7 +156,7 @@ display:none;
 }
 .overlay .bag .itemContainer {
 border-radius:4px;
-float:left;
+float:center;
 width:100px;
 height:auto;
 background:#fff;
@@ -232,7 +232,7 @@ color:#fff;
 font-size:14px;
 text-transform:uppercase;
 font-weight:400;
-float:center;    
+float:left;    
 border-radius:3px;
 margin-right:10px;
 padding:3px 8px;
