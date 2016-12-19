@@ -70,7 +70,7 @@ input[type="submit"]:hover {
     top: 5px;
     width:100%;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0.2em;
 }
 
 .overlay a {
