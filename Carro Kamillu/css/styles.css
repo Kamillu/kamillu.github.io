@@ -136,7 +136,7 @@ color:red;
 .overlay .menu-cart .bag {
 display:block;
 position:absolute;
-    text-align:center;
+    
 top:95px;
 z-index:1;
 right:-1px;
@@ -156,7 +156,7 @@ display:none;
 }
 .overlay .bag .itemContainer {
 border-radius:4px;
-float:center;
+float:left;
 width:100px;
 height:auto;
 background:#fff;
