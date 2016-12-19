@@ -146,7 +146,7 @@ border-top:none;
 border-radius:0 0 6px 6px;
 width:100%;
 height:auto;
-padding:15px 0 15px 15px;
+padding:15px 0 15px 50px;
 }
 .overlay .bag .cart_btn {
 clear:both;
@@ -235,7 +235,7 @@ font-weight:400;
 border-radius:3px;
 margin-right:10px;
 padding:3px 8px;
-width:40%;
+width:60px;
 }
 .overlay .bag a.simpleCart_empty:hover,.bag a.simpleCart_checkout:hover, .bag a.simpleCart_email:hover {
 background-image:url(https://lh4.googleusercontent.com/-BkiT0OfyvOY/TobVG-aSgYI/AAAAAAAAADg/RemBk-D5CGk/h1600/fade-hover.png);
