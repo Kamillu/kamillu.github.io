@@ -110,7 +110,7 @@ font-size:16px;
 background:#ffcc00 url(https://lh3.googleusercontent.com/-dUX23H-zKxs/ToTuES-9aaI/AAAAAAAAAB0/28AzfxgjNlI/h80/basket.png) no-repeat 8px center;
 border:1px solid #ff9900;;
 color:#111;
-padding:12px 12px 12px 45px;
+padding:12px 12px 12px 12px;
 }
 .overlay .menu-cart a.mycart {
 font-size:16px;
@@ -235,7 +235,7 @@ font-weight:400;
 border-radius:3px;
 margin-right:10px;
 padding:3px 8px;
-width:40%;
+width:100%;
 }
 .overlay .bag a.simpleCart_empty:hover,.bag a.simpleCart_checkout:hover, .bag a.simpleCart_email:hover {
 background-image:url(https://lh4.googleusercontent.com/-BkiT0OfyvOY/TobVG-aSgYI/AAAAAAAAADg/RemBk-D5CGk/h1600/fade-hover.png);
