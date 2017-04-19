@@ -74,7 +74,7 @@ input[type="submit"]:hover {
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 0px;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
