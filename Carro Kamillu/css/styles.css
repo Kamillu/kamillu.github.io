@@ -77,7 +77,7 @@ input[type="submit"]:hover {
     padding: 0px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: ;
     display: block;
     transition: 0.3s;
 }
@@ -227,7 +227,7 @@ margin:3px 0 0;
 font:bold 30px Arial,sans-serif;
 }
 .overlay .bag a.simpleCart_empty,.bag a.simpleCart_checkout, .bag a.simpleCart_email {
-background:url(http://2.bp.blogspot.com/-S4AKqSDPUEs/ToSYCWJy4qI/AAAAAAAAABI/conBgqSajOY/s1600/fade.png) repeat-x top center;
+background:url(https://2.bp.blogspot.com/-S4AKqSDPUEs/ToSYCWJy4qI/AAAAAAAAABI/conBgqSajOY/s1600/fade.png) repeat-x top center;
 color:#fff;
 font-size:14px;
 text-transform:uppercase;
@@ -237,7 +237,7 @@ border-radius:3px;
 margin-right:10px;
 margin-bottom:10px;   
 padding:3px 8px;
-width:40%;
+width:;
 }
 .overlay .bag a.simpleCart_empty:hover,.bag a.simpleCart_checkout:hover, .bag a.simpleCart_email:hover {
 background-image:url(https://lh4.googleusercontent.com/-BkiT0OfyvOY/TobVG-aSgYI/AAAAAAAAADg/RemBk-D5CGk/h1600/fade-hover.png);
