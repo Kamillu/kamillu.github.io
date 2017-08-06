@@ -1,8 +1,57 @@
 body {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    
 }
-
+/* ---------- SIGNUP ---------- */
+.form-wrapper {
+  border: 1px solid #dcdee0;
+  padding: .5em;
+  width: 30em;
+  margin: 1em auto;
+  overflow: hidden;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}
+.form-wrapper:hover,
+.form-wrapper:focus {
+  border: 1px solid #c1c5c8;
+}
+input[type="email"] {
+  border: none;
+  float: left;
+  font-size: 1em;
+  padding: .5em;
+  outline: none;
+  margin-top: .7em;
+  width: 19em;
+}
+input[type="submit"] {
+  float: right;
+  border: none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #2a9ccc;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2a9ccc), to(#217ca2));
+  background-image: -webkit-linear-gradient(top, #2a9ccc, #217ca2);
+  background-image: -moz-linear-gradient(top, #2a9ccc, #217ca2);
+  background-image: -o-linear-gradient(top, #2a9ccc, #217ca2);
+  background-image: linear-gradient(to bottom, #2a9ccc, #217ca2);
+  color: white;
+  -webkit-box-shadow: inset 0 2px 2px #217ca2;
+  box-shadow: inset 0 2px 2px #217ca2;
+  padding: 1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #2da2d4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2da2d4), to(#2382aa));
+  background-image: -webkit-linear-gradient(top, #2da2d4, #2382aa);
+  background-image: -moz-linear-gradient(top, #2da2d4, #2382aa);
+  background-image: -o-linear-gradient(top, #2da2d4, #2382aa);
+  background-image: linear-gradient(to bottom, #2da2d4, #2382aa);
+}
 .overlay {
     height: 0%;
     width: 100%;
@@ -25,10 +74,10 @@ body {
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 0px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: ;
     display: block;
     transition: 0.3s;
 }
@@ -48,7 +97,7 @@ body {
 position:relative;
 top:-5px;
 border-radius:4px;
-width:100%;
+width:80%;
 float:center;
     text-align: center;
 margin-right:10px;
@@ -61,7 +110,7 @@ font-size:16px;
 background:#ffcc00 url(https://lh3.googleusercontent.com/-dUX23H-zKxs/ToTuES-9aaI/AAAAAAAAAB0/28AzfxgjNlI/h80/basket.png) no-repeat 8px center;
 border:1px solid #ff9900;;
 color:#111;
-padding:12px 12px 12px 45px;
+padding:12px 12px 12px 50px;
 }
 .overlay .menu-cart a.mycart {
 font-size:16px;
@@ -87,6 +136,7 @@ color:red;
 .overlay .menu-cart .bag {
 display:block;
 position:absolute;
+    
 top:95px;
 z-index:1;
 right:-1px;
@@ -106,8 +156,8 @@ display:none;
 }
 .overlay .bag .itemContainer {
 border-radius:4px;
-float:left;
-width:40%;
+float:center;
+width:100px;
 height:auto;
 background:#fff;
 text-align:center;
@@ -177,15 +227,17 @@ margin:3px 0 0;
 font:bold 30px Arial,sans-serif;
 }
 .overlay .bag a.simpleCart_empty,.bag a.simpleCart_checkout, .bag a.simpleCart_email {
-background:url(http://2.bp.blogspot.com/-S4AKqSDPUEs/ToSYCWJy4qI/AAAAAAAAABI/conBgqSajOY/s1600/fade.png) repeat-x top left;
+background:url(https://2.bp.blogspot.com/-S4AKqSDPUEs/ToSYCWJy4qI/AAAAAAAAABI/conBgqSajOY/s1600/fade.png) repeat-x top center;
 color:#fff;
 font-size:14px;
 text-transform:uppercase;
 font-weight:400;
+float:left;    
 border-radius:3px;
 margin-right:10px;
+margin-bottom:10px;   
 padding:3px 8px;
-width:auto;
+width:;
 }
 .overlay .bag a.simpleCart_empty:hover,.bag a.simpleCart_checkout:hover, .bag a.simpleCart_email:hover {
 background-image:url(https://lh4.googleusercontent.com/-BkiT0OfyvOY/TobVG-aSgYI/AAAAAAAAADg/RemBk-D5CGk/h1600/fade-hover.png);
