@@ -1,3 +1,4 @@
+$html=
 <?php
 $to = 'correo-vendedor@dominio.com';
 $remite = $_POST['jcremite'];
@@ -10,3 +11,4 @@ echo 'Su pedido ha sido enviado.<br/> Nos pondremos en contacto con Vd. mediante
 echo $remite;
 echo '<br/><br/><a href="javascript:history.go(-1)">Volver a la tienda</a>';
 ?>
+echo $html; 
