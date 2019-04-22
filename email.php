@@ -1,5 +1,5 @@
 <?php
-$to = 'correo-vendedor@dominio.com';
+$to = 'bestpriceschile@gmail.com';
 $remite = $_POST['jcremite'];
 $subject = 'Aviso de pedido';
 $jcitems = $_POST['jcitems'];
