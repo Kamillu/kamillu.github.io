@@ -46,7 +46,7 @@ function Cart(){
 	me.shippingQuantityRate = 0;
 	me.shippingRate = 0;
 	me.shippingCost = 0;
-	me.currency = CLP;
+	me.currency = USD;
 	me.checkoutTo = PayPal;
 	me.email = "";
 	me.merchantId	 = "";
